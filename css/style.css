@@ -1,0 +1,151 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+div,
+p {
+  display: block;
+}
+
+header,
+section,
+footer {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding: 4rem 0;
+}
+
+section {
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: Lucida, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: #fa456c;
+}
+
+p {
+  color: rgb(59, 59, 61);
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(59, 59, 61);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 4rem;
+  margin-top: 3rem;
+}
+
+h2 {
+  color: #87b4f8;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: rgb(56, 4, 241);
+  font-size: 1.5rem;
+}
+
+header,
+footer {
+  background-color: #d0fce6;
+}
+
+.blocks {
+  padding: 3rem 0;
+}
+.blocks h2 {
+  color: rgb(59, 59, 61);
+}
+.blocks ul {
+  list-style-type: none;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  height: 250px;
+  padding: 1rem 0;
+  width: 100%;
+}
+.blocks li {
+  color: #87b4f8;
+  display: block;
+  margin: 1.5rem auto;
+  width: 30%;
+}
+.blocks li .img-container {
+  display: block;
+  height: 200px;
+  overflow: hidden;
+  width: 100%;
+}
+.blocks li a {
+  background-color: rgb(59, 59, 61);
+  border-radius: 5px;
+  color: white;
+  display: block;
+  font-size: 2.5rem;
+  margin: 3rem auto 1.5rem;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.products h2 {
+  color: #87b4f8;
+}
+.products li {
+  color: #08dffc;
+}
+.products li a {
+  background-color: #fa456c;
+}
+
+.destack {
+  background-color: #08dffc;
+  padding: 1.5rem;
+}
+.destack h1 {
+  color: rgb(56, 4, 241);
+  float: justify;
+  font-size: 4rem;
+  margin-top: 0;
+}
+.destack h2 {
+  float: justify;
+  font-size: 1rem;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+}
+.destack img {
+  width: 100%;
+  height: auto;
+  margin: 1.5rem auto;
+}
+.destack p {
+  font-size: 1.5rem;
+  color: rgb(59, 59, 61);
+  padding: 2rem 0;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
